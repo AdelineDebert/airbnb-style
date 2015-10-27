@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  margin-top: 0;
+  font-family: 'PT Sans Narrow', sans-serif;
+  background-color: #E4EAEA;
+}
+#logo img {
+  width : 10%;
+  height: 10%;
+}
+header {
+  background-image: url(laptop.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 0;
+  padding: 0;
+}
+#haut li {
+  display: inline-block;
+  list-style: none;
+  margin : 10px;
+  color: #FAF0E6;
+  font-size: 18px;
+}
+#haut {
+    float: right;
+}
+#hote {
+  border :1px solid #FAF0E6;
+  padding : 5px;
+}
+#hote:hover {
+  background-color: rgba(242,211,229, 0.3)
+}
+li a {
+  text-decoration: none;
+  color: #F6F6F6;
+}
+h1 {
+  text-align: center;
+  color: #CD5C5C;
+  padding-top: 5%;
+  font-size: 3em;
+}
+#prendsUnCafe {
+  text-align: center;
+  color: #FAF0E6;
+
+  margin : 10px;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+#bouton {
+  margin: auto;
+  margin-top: 3%;
+  width: 140px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  background: transparent;
+  background-color: rgba(196,185,188,0.3);
+  border-radius: 10px;
+}
+#bouton a {
+  text-decoration: none;
+  color: #FAF0E6;
+  border-radius: 10px;
+}
+ #bouton:hover {
+   background-color: rgba(242,211,229, 0.3)
+ }
+
+#bas_entete {
+  margin-top: 20%;
+  height: 100px;
+  background-color: rgba(0,0,0,0.5)
+}
+
+form {
+  /*margin: auto;*/
+  padding-top: 25px;
+  text-align: center;
+  font-size: 0;
+}
+input {
+  width: 250px;
+  height:50px;
+  color: #CD5C5C;
+  margin :auto 0;
+}
+select {
+  width: 250px;
+  height:50px;
+  color: #CD5C5C;
+}
+#equipe img {
+  width : 600px;
+  float: right;
+}
+#equipe {
+  height: 400px;
+  width: 1000px;
+  margin : 50px auto;
+  text-align: center;
+  background-color: #F6F6F6;
+}
+h2 {
+  font-size: 2.5em;
+  padding-top: 50px;
+  color: #CD5C5C;
+}
+#recherche {
+  background-color: #CD5C5C;
+  color : #FEFEFE;
+  border-radius: 0 5px 5px 0;
+}
+#recherche:hover {
+  background-color: #F69AA3;
+  border-radius: 0 5px 5px 0;
+}
+#paysFormulaire {
+  border-radius: 5px 0 0 5px;
+}
+#entrainezVous {
+  width: 30%;
+  height : 10%;
+  margin-top: 3%;
+}
+#texteDePresentation {
+  font-size: 1.5em;
+}
